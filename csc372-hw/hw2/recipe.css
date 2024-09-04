@@ -5,9 +5,14 @@ body {
     font-family: 'Georgia';
 }
 
-.comments{
+.comments {
     font-style: italic;
     background-color: lightyellow;
+}
+
+.pie-bullet {
+    list-style-image: url('../hw2/pie_icon.gif');
+    padding-left: 20px;
 }
 
 .pre-format {
@@ -18,17 +23,24 @@ body {
 }
 
 .links {
-    color:#A4A400;
-    
+    color: #A4A400;
+
 }
 
-h1, h2, h3, h4, h5{
+h1,
+h2,
+h3,
+h4,
+h5 {
     color: #A4A400;
     background-color: #f0f0f0;
     text-decoration: underline;
 }
 
-h2, h3, h4, h5 {
+h2,
+h3,
+h4,
+h5 {
     text-align: left;
     font-size: 18pt;
     text-transform: uppercase;
@@ -55,4 +67,3 @@ h4 {
 h5 {
     font-family: sans-serif;
 }
-

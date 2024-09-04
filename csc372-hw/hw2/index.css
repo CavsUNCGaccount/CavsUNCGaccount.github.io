@@ -1,0 +1,27 @@
+body {
+    background-color: lightblue;
+    color: #404040;
+    font-size: 12pt;
+    font-family: 'Verdana';
+}
+
+h1, h2{
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 30pt;
+}
+
+h2 {
+    font-size: 20pt;
+}
+
+img {
+    height: 150px; 
+    padding: 15px;
+    border: 10px solid black;
+    background-color: lightgray;
+    margin: 15px;
+}
+
