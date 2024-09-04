@@ -1,0 +1,58 @@
+body {
+    background-color: white;
+    color: #404040;
+    font-size: 11pt;
+    font-family: 'Georgia';
+}
+
+.comments{
+    font-style: italic;
+    background-color: lightyellow;
+}
+
+.pre-format {
+    font-family: monospace;
+    text-align: right;
+    white-space: pre;
+
+}
+
+.links {
+    color:#A4A400;
+    
+}
+
+h1, h2, h3, h4, h5{
+    color: #A4A400;
+    background-color: #f0f0f0;
+    text-decoration: underline;
+}
+
+h2, h3, h4, h5 {
+    text-align: left;
+    font-size: 18pt;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-family: 'Lucida Sans Unicode';
+    text-align: center;
+    font-size: 22pt;
+}
+
+h2 {
+    font-family: 'Helvetica';
+}
+
+h3 {
+    font-family: 'Arial';
+}
+
+h4 {
+    font-family: 'Lucida Sans';
+}
+
+h5 {
+    font-family: sans-serif;
+}
+
