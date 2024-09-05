@@ -8,6 +8,9 @@ body {
 .comments {
     font-style: italic;
     background-color: lightyellow;
+    margin: 10px; 
+    border-radius: 5px;
+
 }
 
 .pie-bullet {
