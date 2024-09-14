@@ -23,10 +23,20 @@
 
             <nav>
                 <ul class="nav-bar">
-                    <li><a href="/index.html">Home</a></li>
-                    <li><a href="/products.html">Products</a></li>
-                    <li><a href="/#">About Us</a></li>
-                    <li><a href="/#">Contact</a></li>
+                    <li><a href="../Term Project/index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="../Term Project/products.html" class="dropbtn">Products</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Consoles</a></li>
+                            <li><a href="#">Games</a></li>
+                            <li><a href="#">Accessories</a></li>
+                            <li><a href="#">Decor</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">View Shopping Cart</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Sign In</a></li>
+                    <li><a href="#">Sign Up</a></li>
                 </ul>
             </nav>
 
@@ -40,7 +50,7 @@
 
             <section class="splash">
 
-                <h2>Welcome to the PlayStation Nation!</h2>
+                <h1>Welcome to the PlayStation Nation!</h1>
                 <img class="logo" src="images/PlayStation Nation logo.png">
 
                 <p>The PlayStation Nation is a retro video game store that
@@ -57,39 +67,54 @@
 
                 <h3> <em>Your journey to greatness starts here.</em></h3>
 
-                <h2><u>Featured Product: </u></h2>
+                <h2><u>Featured Products: </u></h2>
 
-                <figure>
-                    <img class ="original-ps3" src="images/Original PS3.png" alt="PlayStation 3">
-                    <figcaption>
-                        Get the original PlayStation 3 model, refurbished like it is brand new
-                        ! This model is backwards compatible with PlayStation and Playstation 2 games.
-                        Get it today for just $249.99.
-                    </figcaption>
+                <section class="featured-products">
 
-                </figure>
+                    <figure>
+                        <img src="images/Original PS3.png" alt="PlayStation 3">
+                        <figcaption><b>Original PlayStation 3: $249.99</b>
+                        </figcaption>
+                    </figure>
 
-                <p>
+                    <figure>
+                        <img src="images/PlayStation Portable.jpg" alt="PSP">
+                        <figcaption><b>PlayStation Portable (PSP): $99.99</b>
+                        </figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="images/Original PlayStation.jpg" alt="PS1">
+                        <figcaption><b>Original PlayStation (PS1): $129.99</b>
+                        </figcaption>
+                    </figure>
+
+                </section>
+
+                
                     Interested? <a href="#">Sign up for an account today!</a>
-                </p>
+                
 
             </section>
 
             <section class="search-field">
-                <h2>Search the Website</h2>
+
+                <h2>Search for an product</h2>
+
                 <form action="/search" method="get">
                     <label for="site-search">Search:</label>
-                    <input type="search" id="site-search" name="q" placeholder="Type keywords...">
+                    <input type="search" id="site-search" name="q"
+                        placeholder="Type product name here">
                     <button type="submit">Go</button>
                 </form>
+
             </section>
-            
 
         </main>
 
         <footer class="pre-format">
             Copyright © 2024 PlayStation Nation
-            PlayStation Nation Production
+            PlayStation Nation Productions
             All rights reserved
         </footer>
 
