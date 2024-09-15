@@ -39,7 +39,7 @@ header {
 }
 
 .dropdown-content {
-    display: none; /* Hide by default */
+    display: none; /* Hide the list by default */
     position: absolute; /* Position it below the "Products" item */
     background-color: black;
     min-width: 160px;
@@ -111,7 +111,10 @@ figcaption {
     white-space: pre;
 }
 
-
+/* Styles for products in products page */
+.product-categories{
+    background-color: rgb(116, 142, 186);
+}
 .product-list {
     display: flex;
     flex-wrap: wrap;
@@ -119,21 +122,28 @@ figcaption {
 }
 
 .product-item {
-    border: 1px solid #ccc;
-    padding: 10px;
+    border: 5px solid blue;
+    padding: 20px; 
+    width: 250px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
     text-align: center;
-    width: 200px; /* Adjust the width based on your design */
 }
 
 .product-image {
-    max-width: 100%;
+    max-width: 85%;
     height: auto;
+    margin: 0 auto; 
+    padding: 10px 10px 10px 10px; 
 }
+
 
 .details-link {
     display: inline-block;
     margin-top: 10px;
     text-decoration: none;
-    color: #007bff;
+    color: black;
     font-weight: bold;
 }
