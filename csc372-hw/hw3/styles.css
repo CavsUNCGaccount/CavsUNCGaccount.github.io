@@ -15,9 +15,9 @@ header {
     text-align: center;
 }
 
+/* Make the list items appear horizontally */
 .nav-bar li {
     display: inline;
-    /* Make the list items appear horizontally */
 }
 
 .nav-bar li a {
@@ -107,4 +107,9 @@ figcaption.show {
 
 button {
     margin-left: 15px;
+}
+
+/* Add space in between dish items  */
+#dish-list li {
+    margin-bottom: 15px; 
 }
