@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meal Plan Page</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="meal-plan-script.js" defer></script>
+    </head>
+
+    <body>
+
+        <header>
+            <h1>UNCG Nearby Foods Establishments</h1>
+            <nav>
+                <ul class="nav-bar">
+                    <li><a href="main-page.html">Home</a></li>
+                    <li><a href="meal-plan.html">Meal Plan</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main> 
+
+            <div class="dishes-container">
+                <aside class="recommended-dishes">
+                    <h2>Recommended Dishes</h2>
+                    <ul id="dish-list">
+
+                        <li data-price="1.80"><span>All The Way Hot Dog - $1.80</span> <button class="add-btn">Add</button></li>
+                        <li data-price="2.75"><span>Small Chocolate Ice Cream Cone - $2.75</span> <button class="add-btn">Add</button></li>
+                        <li data-price="3.90"><span>Strawberry Milkshake - $3.90</span> <button class="add-btn">Add</button></li>
+
+                        <br>
+
+                        <li data-price="14.99"><span>Chicken Philly Sub - $14.99</span> <button class="add-btn">Add</button></li>
+                        <li data-price="23.98"><span>Sicilian Marinara Pizza - $23.98</span> <button class="add-btn">Add</button></li>
+                        <li data-price="4.99"><span>Zeppole - $4.99</span> <button class="add-btn">Add</button></li>
+
+                        <br>
+
+                        <li data-price="3.50"><span>Chicken, Egg, & Cheese Biscuit - $3.50</span> <button class="add-btn">Add</button></li>
+                        <li data-price="5.99"><span>Chick-fil-A Deluxe Sandwich - $5.99</span> <button class="add-btn">Add</button></li>
+                        <li data-price="5.79"><span>Chick-fil-A Grilled Chicken Club Sandwich - $5.79</span> <button class="add-btn">Add</button></li>
+                       
+                    </ul>
+                </aside>
+        
+                <section class="meal-plan">
+                    <h2>Your Daily Meal Plan</h2>
+                    <ul id="meal-plan-list"></ul>
+                    <p>Total Cost: $<span id="total-cost">0</span></p>
+                </section>
+            </div>
+            
+        </main>
+
+        <footer class="pre-format">
+            <p>&copy; 2024 UNCG Nearby Food Establishments
+                All rights reserved.</p>
+        </footer>
+
+    </body>
+
+</html>

@@ -1,0 +1,110 @@
+body {
+    background-color: rgb(180, 217, 231);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    background-color: gold;
+    font-size: large;
+    text-align: center;
+    position: relative;
+}
+
+.nav-bar {
+    background-color: cadetblue;
+    text-align: center;
+}
+
+.nav-bar li {
+    display: inline;
+    /* Make the list items appear horizontally */
+}
+
+.nav-bar li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-bar li a:hover {
+    background-color: #555;
+    color: rgb(207, 207, 229);
+}
+
+
+.intro {
+    background-color: cyan;
+}
+
+.food-recomm {
+    background-color: rgb(58, 187, 187);
+    margin-bottom: 40px;
+}
+
+.dish-gallery {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+figure {
+    text-align: center;
+    margin: 0;
+}
+
+img {
+    width: 150px;
+    height: 120px;
+}
+
+.big {
+    width: 250px;
+    height: 220px;
+    border: 1px solid black;
+}
+
+figcaption {
+    margin-top: 5px;
+    font-style: italic;
+    color: #181616;
+}
+
+figcaption.show {
+    opacity: 1;
+}
+
+.hide {
+    opacity: 0;
+}
+
+.contact-info {
+    background-color: aqua;
+    text-align: left;
+}
+
+.pre-format {
+    font-family: monospace;
+    text-align: right;
+    white-space: pre;
+}
+
+/* meal plan page properties */
+.dishes-container {
+    display: flex;
+}
+
+.recommended-dishes, .meal-plan {
+    margin: 20px;
+    padding: 20px;
+    border: 10px solid blue;
+    background-color: aliceblue;
+    width: 45%;
+}
+
+button {
+    margin-left: 15px;
+}
