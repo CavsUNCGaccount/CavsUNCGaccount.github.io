@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.player-throw {
+    background-color: rgb(80, 209, 108);
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Add space between images */
+}
+
+.player-throw figure, .computer-throw figure, h1 {
+    text-align: center; 
+}
+
+.player-option {
+    width: 100px;
+    cursor: pointer; 
+}
+
+.player-option.selected {
+    border: 5px solid red;
+}
+
+.computer-throw {
+    background-color: rgb(152, 152, 225);
+    display: flex;
+    justify-content: center;
+}
+
+.player-option, .computer-option {
+    width: 150px;  /* Ensure all images are the same size */
+}
+
+.result {
+    display: none;
+    background-color: rgb(209, 139, 104);
+    display: flex;
+    justify-content: center;
+}
+
+.play-again {
+    font-size: large;
+}
