@@ -14,6 +14,11 @@ header {
     color: white;
 }
 
+h1, h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
 .nav-bar {
     list-style-type: none;
     background-color: gray;
@@ -62,4 +67,112 @@ header {
 
 .instructions {
     background-color: aliceblue;
+    padding: 20px;
 }
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1em;
+    text-align: left;
+    background-color: white;
+}
+
+/* Header of the table */
+table thead {
+    background-color: #235b7b;
+    color: white;
+}
+
+/* Table borders and padding */
+table th, table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Row hover effect */
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Image styling inside the table */
+table td img {
+    width: 50px;
+    height: auto;
+}
+
+button {
+    padding: 8px 12px;
+    margin-right: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Delete button */
+button.delete {
+    background-color: #d9534f;
+    color: white;
+}
+
+button.delete:hover {
+    background-color: #c9302c;
+}
+
+/* Archive button */
+button.archive {
+    background-color: #f0ad4e;
+    color: white;
+}
+
+button.archive:hover {
+    background-color: #ec971f;
+}
+
+/* Edit link styling */
+.edit {
+    color: #337ab7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.pre-format {
+    font-family: monospace;
+    text-align: right;
+    white-space: pre;
+}
+
+#category-filter {
+    margin-bottom: 15px;
+    padding: 5px;
+    font-size: 1rem;
+}
+
+/* Add new product button */
+.add-product {
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+#add-product-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(36, 201, 36);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add-product-button:hover {
+    background-color: green; 
+}
+
+
